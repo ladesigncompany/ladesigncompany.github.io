@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>About Me</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="https://use.typekit.net/jwz4rgo.css">
+  <title>Logan Alexander Design Company</title>
+  <style>
+    body 
+{
+  background-color:#e5e5e5;
+  font-family: "nunito-sans", sans-serif;
+  cursor: url('https://ladesigncompany.wordpress.com/wp-content/uploads/2024/12/20pxcursors-03.png') 8 8, auto;
+}
+ .navbar {
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: max-content auto max-content;
+  grid-template-areas: "logo menus toggler";
+  justify-items: stretch;
+  align-items: center;
+  column-gap: 50px;
+  padding-top: 20px;
+}
+
+.logo {
+  grid-area: logo;
+  width: 300px;
+  padding-left: 30px;
+}
+
+.menus {
+  grid-area: menus;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  font-size: 20px;
+  font-family: "henderson-sans-basic", sans-serif;
+  font-weight: bold;
+}
+
+.menus * {
+  padding: 25px;
+}
+
+#top a:hover {
+  color: #0578bf;
+  text-decoration: none;
+}
+
+#top a{
+  color: #010974;
+  text-decoration: none; 
+}
+
+.banner{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 30px;
+  text-align: center;
+  background: #010974;
+  color: white;
+  font-size: 50px;
+  font-family: "henderson-sans-basic", sans-serif;
+  font-weight: bold;
+  cursor: url('https://ladesigncompany.wordpress.com/wp-content/uploads/2024/12/20pxcursors-02.png') 8 8, auto;
+}
+
+#grid-container {
+  display:grid;
+  grid-template-columns: auto auto;
+  gap: 0px;
+  padding: 20px 0px;
+  text-align: center;
+  justify-content: space-evenly;
+  justify-content: center;
+}
+
+.griditem {
+  width: 25vw;
+}
+
+.centered {
+  position: relative;
+  bottom: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 25vw;
+  height: 5vh;
+  color: white;
+  font-family: arial;
+  font-weight: bold;
+}
+
+.bio {
+  font-family: "nunito-sans", sans-serif;
+  font-size: 20px;
+  text-align: justify;
+  text-justify: inter-word;
+  width: 300px;
+  padding-bottom: 20px;
+}
+
+#footer {
+  padding-left: 100px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-top: 70px;
+  background: #010974;
+  color: white;
+  font-family: "henderson-sans-basic", sans-serif;
+  cursor: url('https://ladesigncompany.wordpress.com/wp-content/uploads/2024/12/20pxcursors-02.png') 8 8, auto;
+  text-align: left;
+}
+
+#footer a:hover {
+  color: #0578bf;
+  text-decoration: none;
+  cursor: url('https://ladesigncompany.wordpress.com/wp-content/uploads/2024/12/20pxcursors-04.png') 8 8, auto;
+}
+#footer a{
+  color: white;
+  text-decoration: none;
+}
+
+a {
+  cursor: url('https://ladesigncompany.wordpress.com/wp-content/uploads/2024/12/20pxcursors-05.png') 8 8, auto;
+}
+
+#grid-container a:hover {
+  color: #0578bf;
+  text-decoration: none;
+}
+
+#grid-container a{
+  color: black;
+  text-decoration: none; 
+}
+  </style>
+</head>
+
+<body>
+<div id="top">
+    <nav class="navbar">
+      <div class="logo">
+        <a href="https://ladesigncompany.wordpress.com/" target="_self" rel="noopener noreferrer">
+          <img id="logo" src="https://ladesigncompany.wordpress.com/wp-content/uploads/2024/04/logo-04.png" alt="Logan Alexander Design Company" width="100%">
+        </a>
+      </div>
+      <div class="menus">
+        <div><a href="https://ladesigncompany.wordpress.com/" target="_self" rel="noopener noreferrer">Logos & Branding</a></div>
+        <div><a href="https://ladesigncompany.wordpress.com/" target="_self" rel="noopener noreferrer">Posters</a></div>
+        <div><a href="https://github.com/dashboard" target="_self" rel="noopener noreferrer">Video</a></div>
+        <div><a href="https://ladesigncompany.wordpress.com/" target="_self" rel="noopener noreferrer">Miscellaneous</a></div>
+        <div><a href="https://ladesigncompany.wordpress.com/" target="_self" rel="noopener noreferrer">About Me</a></div>
+      </div>
+  </div>
+  </nav>
+
+  <div class="banner">
+    About Me
+  </div>
+
+   <div id="grid-container">
+
+    <div class="griditem">
+      <img src="https://ladesigncompany.wordpress.com/wp-content/uploads/2024/04/logo-06.png" width="40%" />
+      <p><b>Contact Me:</b></p>
+   <form target="_blank" action="https://formsubmit.co/lalexander6174@gmail.com" method="POST">
+    <div class="form-group">
+      <div class="form-row">
+        <div class="col">
+          <input type="text" name="name" class="form-control" placeholder="Full Name" required>
+        </div>
+        <div class="col">
+          <input type="email" name="email" class="form-control" placeholder="Email Address" required>
+        </div>
+      </div>
+    </div>
+    <div class="form-group">
+      <textarea placeholder="Your Message" class="form-control" name="message" rows="10" required></textarea>
+    </div>
+    <button type="submit" class="btn btn-lg btn-dark btn-block">Submit Form</button>
+  </form>
+    </div>
+    <div class="griditem">
+      <div class ="bio">
+        Logan Alexander is a Massachusetts based design student. He graduated with an Associate of Science degree in Interactive Media Digital Design from Quinsigamond Community College. Following this he transferred to Assumption University, where he is currently a Graphic Design Major. He is proficient in Adobe Photoshop, Illustrator, InDesign, and Premiere Pro, on top of having general computer literacy allowing him to quickly learn new software. His primary interests include logo/brand design and package design.</div>
+    </div>
+  </div>
+
+<div id="footer" </body>
+  <p><b>Logan Alexander Design Company</b><br><br>Contact Me: <a href="mailto:lalexander6174@gmail.com">lalexander6174@gmail.com</a></br></b></p>
+</div>
+  
+</body>
+
+</html>
+<!-- partial -->
+  
+</body>
+</html>

@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Front Page</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="https://use.typekit.net/jwz4rgo.css">
+  <title>Logan Alexander Design Company</title>
+  <style>
+    body 
+{
+  background-color:#e5e5e5;
+  /overflow-x:hidden;
+  cursor: url('https://ladesigncompany.wordpress.com/wp-content/uploads/2024/12/20pxcursors-03.png') 8 8, auto;
+}
+ .navbar {
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: max-content auto max-content;
+  grid-template-areas: "logo menus toggler";
+  justify-items: stretch;
+  align-items: center;
+  column-gap: 50px;
+  padding-top: 20px;
+}
+
+.logo {
+  grid-area: logo;
+  width: 300px;
+  padding-left: 30px;
+}
+
+.menus {
+  grid-area: menus;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  font-size: 20px;
+  font-family: "henderson-sans-basic", sans-serif;
+  font-weight: bold;
+}
+
+.menus * {
+  padding: 25px;
+}
+
+#top a:hover {
+  color: #0578bf;
+  text-decoration: none;
+}
+
+#top a{
+  color: #010974;
+  text-decoration: none; 
+}
+
+#images a:hover {
+  color: #0578bf;
+  text-decoration: none;
+}
+#images a{
+  color: white;
+  text-decoration: none;
+}
+
+a {
+  cursor: url('https://ladesigncompany.wordpress.com/wp-content/uploads/2024/12/20pxcursors-05.png') 8 8, auto;
+}
+
+.grid-container {
+  display:grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 0px;
+  width: 100vw;
+  padding: 20px 0px;
+  text-align: center;
+}
+
+.griditem {
+  width: 25vw;
+}
+
+.centered {
+  position: relative;
+  bottom: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 25vw;
+  height: 5vh;
+  color: white;
+  font-family: arial;
+  font-weight: bold;
+}
+
+.portfolio{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 30px;
+  text-align: center;
+  background: #010974;
+  color: white;
+  font-size: 50px;
+  font-family: "henderson-sans-basic", sans-serif;
+  font-weight: bold;
+  cursor: url('https://ladesigncompany.wordpress.com/wp-content/uploads/2024/12/20pxcursors-02.png') 8 8, auto;
+}
+
+.centerbutton {
+    text-align: center;
+}
+
+#button a{
+  background-color: #0578bf;
+  border: none;
+  color: white;
+  padding: 25px 200px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 35px;
+  margin: 20px 20px;
+  border-radius:20px;
+  font-family: "henderson-sans-basic", sans-serif;
+  font-weight: bold;
+  transition-duration: 0.4s;
+}
+
+#button a:hover {
+  background-color: #010974;
+  border: none;
+  color: white;
+  padding: 25px 200px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 35px;
+  margin: 20px 20px;
+  cursor: url('https://ladesigncompany.wordpress.com/wp-content/uploads/2024/12/20pxcursors-04.png') 8 8, auto;
+  border-radius:20px;
+  font-family: "henderson-sans-basic", sans-serif;
+  font-weight: bold;
+}
+
+#footer {
+  padding-left: 100px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-top: 70px;
+  background: #010974;
+  color: white;
+  font-family: "henderson-sans-basic", sans-serif;
+  cursor: url('https://ladesigncompany.wordpress.com/wp-content/uploads/2024/12/20pxcursors-02.png') 8 8, auto;
+  text-align: left;
+}
+
+#footer a:hover {
+  color: #0578bf;
+  text-decoration: none;
+  cursor: url('https://ladesigncompany.wordpress.com/wp-content/uploads/2024/12/20pxcursors-04.png') 8 8, auto;
+}
+#footer a{
+  color: white;
+  text-decoration: none;
+}
+  </style>
+    
+</head>
+
+<body>
+  <div id="top">
+    <nav class="navbar">
+      <div class="logo">
+        <a href="https://ladesigncompany.wordpress.com/" target="_self" rel="noopener noreferrer">
+          <img id="logo" src="https://ladesigncompany.wordpress.com/wp-content/uploads/2024/04/logo-04.png" alt="Logan Alexander Design Company" width="100%">
+        </a>
+      </div>
+      <div class="menus">
+        <div><a href="https://ladesigncompany.wordpress.com/" target="_self" rel="noopener noreferrer">Logos</a></div>
+        <div><a href="https://ladesigncompany.wordpress.com/" target="_self" rel="noopener noreferrer">Posters</a></div>
+        <div><a href="https://github.com/dashboard" target="_self" rel="noopener noreferrer">Video</a></div>
+        <div><a href="https://ladesigncompany.wordpress.com/" target="_self" rel="noopener noreferrer">Miscellaneous</a></div>
+        <div><a href="https://ladesigncompany.wordpress.com/" target="_self" rel="noopener noreferrer">About Me</a></div>
+      </div>
+  </div>
+  </nav>
+
+  <div class="portfolio">
+    Portfolio
+  </div>
+  <div id="images">
+    <div class="grid-container">
+
+      <div class="griditem">
+        <img src="https://ladesigncompany.wordpress.com/wp-content/uploads/2024/11/logos.jpg" width="90%" />
+        <div class="centered" style="font-size:2vw"><a href="https://ladesigncompany.wordpress.com/" target="_self" rel="noopener noreferrer">Logos</a></div>
+      </div>
+      <div class="griditem">
+        <img src="https://ladesigncompany.wordpress.com/wp-content/uploads/2024/11/posters.png" width="90%" />
+        <div class="centered" style="font-size:2vw">Posters</div>
+      </div>
+      <div class="griditem">
+        <img src="https://ladesigncompany.wordpress.com/wp-content/uploads/2024/11/photography.jpg" width="90%" />
+        <div class="centered" style="font-size:2vw">Video</div>
+      </div>
+      <div class="griditem">
+        <img src="https://ladesigncompany.wordpress.com/wp-content/uploads/2024/11/misc.jpg" width="90%" />
+        <div class="centered" style="font-size:2vw">Miscellaneous</div>
+      </div>
+    </div>
+  </div>
+  <div class="centerbutton" 
+    <button id="button"><a href="https://ladesigncompany.wordpress.com/" target="_self" rel="noopener noreferrer">About Me</a></button>
+  </div>
+
+    <div id="footer" </body>
+  <p><b>Logan Alexander Design Company</b><br><br>Contact Me: <a href="mailto:lalexander6174@gmail.com">lalexander6174@gmail.com</a></br></b></p>
+</div>
+
+</html>
+<!-- partial -->
+  
+</body>
+</html>
